@@ -8,6 +8,7 @@ end
 # css改css.scss加入@import "bootstrap";  js加入 '//= require bootstrap '
 gem 'bootstrap-sass'
 
+# 要執行 rails generate simple_form:install --bootstrap
 gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
