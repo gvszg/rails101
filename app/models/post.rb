@@ -1,6 +1,6 @@
 class Post < ActiveRecord::Base
 
-  belongs_to :group 
+  belongs_to :group, counter_cache: :posts_count 
 
   validates :content, presence: { message:  "請填寫內容！"}
 
