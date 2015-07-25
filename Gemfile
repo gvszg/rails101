@@ -5,7 +5,10 @@ group :development do
   gem "rails_best_practices", require: false
 end
 
+# css改css.scss加入@import "bootstrap";  js加入 '//= require bootstrap '
 gem 'bootstrap-sass'
+
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
