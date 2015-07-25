@@ -11,6 +11,11 @@ gem 'bootstrap-sass'
 # 要執行 rails generate simple_form:install --bootstrap
 gem 'simple_form'
 
+# devise 安裝：rails g devise:install ， 建立 user 功能：rails g devise user
+gem 'devise'
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
